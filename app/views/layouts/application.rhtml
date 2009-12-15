@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+  	<title>Josh Rachner :: Portfolio</title>
+  	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  	<meta name="keywords" content="Josh Rachner Portfolio" />
+  	<meta name="description" content="Josh Rachner's portfolio resume blog contact" />
+	<%= stylesheet_link_tag 'style', 'colour' %>
+</head>
+
+<body>
+	<div id="main">
+    	<div id="links">
+      		<a href="/index">home</a> | <a href="/resume">resume</a> | <a href="/experience">job experience</a> | <a 	href="/blog">my blog</a> | <a href="/contact">contact</a>
+    	</div>
+    	<div id="logo"><h1>Josh Rachner :: Portfolio</h1></div>
+    		<div id="content">
+      			<div id="column1">
+        			<div id="menu">
+          				<h1>Navigate</h1>
+          				<ul>
+            				<li><%= link_to 'home', {:controller => 'home', :action => 'index'}, :id => @index %></li>
+							<li><%= link_to 'resume', {:controller => 'home', :action => 'resume'}, :id => @resume %></li>
+							<li><%= link_to 'job experience', {:controller => 'home', :action => 'experience'}, :id => @experience %></li>
+							<li><%= link_to 'my blog', {:controller => 'home', :action => 'blog'}, :id => @blog %></li>
+							<li><%= link_to 'contact', {:controller => 'inquiries'}, :id => @contact %></li>
+          				</ul>
+        			</div>
+        			<div id="addlinks">
+          				<h1>Links</h1>
+          				<ul>
+            				<li><a href="http://www.linkedin.com/in/joshrachner" target="_blank"> -> LinkedIn Profile</a></li>
+							<li><a href="http://www.turn2live.com" target="_blank"> -> Turn2Live - Find Live Music</a></li>
+							<li><a href="http://www.allbouttexas.com" target="_blank"> -> All 'Bout Texas Tailgate</a></li>
+							<li><a href="http://www.barbrachner.com" target="_blank"> -> Barb Rachner Ministries</a></li>
+							<li><a href="http://www.kickdiabetes.org" target="_blank"> -> Kick Diabetes Soccer Camp</a></li>
+          				</ul>
+        			</div>
+        			<div class="sidebaritem">
+          				<h1>Contact</h1>
+          				<i>Josh Rachner</i><br />
+						josh AT joshrachner.com<br />
+						jrachner AT sensecorp.com<br />
+						281-543-0189<br />
+						Austin, TX
+        			</div>
+      			</div>
+      			<div id="column2">
+        			<%= yield %>
+      			</div>
+    		</div>
+   			<div id="footer">
+      			copyright &copy; 2009 Josh Rachner | <a href="mailto:support@joshrachner.com">support@joshrachner.com</a>
+    		</div>
+  		</div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<% content_tag(:ul, :class => 'error') do  %>
+	<% @inquiry.errors.full_messages.each do |error| %>
+		<li class="error"><%= error %></li>
+	<% end  %>
+<% end unless @inquiry.errors.blank? %>
+<%= "<div style=\"color: blue;\"><h4><i>#{flash.now[:notice]}</i></h4></div>" unless flash.now[:notice].blank? %>
+<% form_for @inquiry, :method => 'create' do |f| %>
+	<div class="row">
+		<span class="formlabel" >your name</span>
+		<span class="forminput"><%= f.text_field 'name', :value => @inquiry.name %></span>
+	</div>
+	<div class="row">
+		<span class="formlabel">your company</span>
+		<span class="forminput"><%= f.text_field 'company', :value => @inquiry.company %></span>
+	</div>
+	<div class="row">
+		<span class="formlabel">your email</span>
+		<span class="forminput"><%= f.text_field 'email', :value => @inquiry.email %></span>
+	</div>
+	<div class="row">
+		<span class="formlabel">your inquiry</span>
+		<span class="forminput"><%= f.text_area 'content', :cols => "80", :rows => "10", :value => @inquiry.content %></span>
+	</div>
+	<%#= recaptcha_tags %>
+	<div class="spacer">&nbsp;</div>
+	<div class="row">
+		<span class="forminput"><%= submit_tag 'Submit', :class => 'submit' %></span>
+	</div>
+<% end %>
