@@ -1,0 +1,708 @@
+
+
+Processing ApplicationController#index (for 192.168.1.1 at 2009-12-15 01:08:16) [GET]
+
+ActionController::RoutingError (No route matches "/experience.html" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /opt/lampp/htdocs/joshrachner/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 192.168.1.1 at 2009-12-15 01:08:33) [GET]
+
+ActionController::RoutingError (No route matches "/blog.html" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /opt/lampp/htdocs/joshrachner/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 192.168.1.1 at 2009-12-15 01:08:39) [GET]
+
+ActionController::RoutingError (No route matches "/contact.html" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /opt/lampp/htdocs/joshrachner/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 192.168.1.1 at 2009-12-15 01:09:02) [GET]
+
+ActionController::RoutingError (No route matches "/contact.html" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /opt/lampp/htdocs/joshrachner/public/404.html (404 Not Found)
+
+
+Processing HomeController#index (for 192.168.1.1 at 2009-12-15 01:09:06) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 39ms (View: 31, DB: 0) | 200 OK [http://joshrachner.com/]
+
+
+Processing HomeController#df (for 192.168.1.1 at 2009-12-15 01:09:11) [GET]
+Redirected to http://joshrachner.com/
+Completed in 2ms (DB: 0) | 302 Found [http://joshrachner.com/df]
+
+
+Processing HomeController#index (for 192.168.1.1 at 2009-12-15 01:09:11) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/]
+
+
+Processing HomeController#blog (for 192.168.1.1 at 2009-12-15 01:09:12) [GET]
+Rendering template within layouts/application
+Rendering home/blog
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://joshrachner.com/blog]
+
+
+Processing HomeController#experience (for 192.168.1.1 at 2009-12-15 01:09:13) [GET]
+Rendering template within layouts/application
+Rendering home/experience
+Completed in 20ms (View: 20, DB: 0) | 200 OK [http://joshrachner.com/experience]
+
+
+Processing HomeController#resume (for 192.168.1.1 at 2009-12-15 01:09:14) [GET]
+Rendering template within layouts/application
+Rendering home/resume
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://joshrachner.com/resume]
+
+
+Processing HomeController#index (for 192.168.1.1 at 2009-12-15 01:09:14) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/]
+
+
+Processing InquiriesController#index (for 192.168.1.1 at 2009-12-15 01:09:15) [GET]
+Rendering template within layouts/application
+Rendering inquiries/new
+Completed in 81ms (View: 64, DB: 4) | 200 OK [http://joshrachner.com/inquiries]
+
+
+Processing InquiriesController#create (for 192.168.1.1 at 2009-12-15 01:09:16) [POST]
+  Parameters: {"inquiry"=>{"company"=>"", "name"=>"", "content"=>"", "email"=>""}, "commit"=>"Submit"}
+Rendering template within layouts/application
+Rendering inquiries/new
+Completed in 38ms (View: 18, DB: 1) | 200 OK [http://joshrachner.com/inquiries]
+
+
+Processing HomeController#experience (for 192.168.1.1 at 2009-12-15 01:09:19) [GET]
+Rendering template within layouts/application
+Rendering home/experience
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/experience]
+
+
+Processing HomeController#blog (for 192.168.1.1 at 2009-12-15 01:09:20) [GET]
+Rendering template within layouts/application
+Rendering home/blog
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/blog]
+
+
+Processing HomeController#index (for 192.168.1.1 at 2009-12-15 01:09:28) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/index]
+
+
+Processing HomeController#resume (for 192.168.1.1 at 2009-12-15 01:09:29) [GET]
+Rendering template within layouts/application
+Rendering home/resume
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/resume]
+
+
+Processing HomeController#experience (for 192.168.1.1 at 2009-12-15 01:09:30) [GET]
+Rendering template within layouts/application
+Rendering home/experience
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/experience]
+
+
+Processing HomeController#blog (for 192.168.1.1 at 2009-12-15 01:09:31) [GET]
+Rendering template within layouts/application
+Rendering home/blog
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/blog]
+
+
+Processing HomeController#contact (for 192.168.1.1 at 2009-12-15 01:09:34) [GET]
+Redirected to http://joshrachner.com/
+Completed in 1ms (DB: 0) | 302 Found [http://joshrachner.com/contact]
+
+
+Processing HomeController#index (for 192.168.1.1 at 2009-12-15 01:09:34) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/]
+
+
+Processing HomeController#index (for 192.168.1.1 at 2009-12-15 01:12:24) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/]
+
+
+Processing HomeController#sfafafa (for 192.168.1.1 at 2009-12-15 01:12:26) [GET]
+Redirected to http://joshrachner.com/
+Completed in 1ms (DB: 0) | 302 Found [http://joshrachner.com/sfafafa]
+
+
+Processing HomeController#index (for 192.168.1.1 at 2009-12-15 01:12:27) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/]
+
+
+Processing ApplicationController#index (for 192.168.1.1 at 2009-12-15 01:12:31) [GET]
+
+ActionController::RoutingError (No route matches "/dfd.d" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /opt/lampp/htdocs/joshrachner/public/404.html (404 Not Found)
+
+
+Processing HomeController#index (for 192.168.1.1 at 2009-12-15 01:12:34) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/]
+
+
+Processing InquiriesController#index (for 192.168.1.1 at 2009-12-15 01:12:37) [GET]
+Rendering template within layouts/application
+Rendering inquiries/new
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://joshrachner.com/inquiries]
+
+
+Processing InquiriesController#create (for 192.168.1.1 at 2009-12-15 01:12:54) [POST]
+  Parameters: {"inquiry"=>{"company"=>"josh", "name"=>"josh", "content"=>"josh", "email"=>"josh"}, "commit"=>"Submit"}
+Rendering template within layouts/application
+Rendering inquiries/new
+Completed in 26ms (View: 15, DB: 1) | 200 OK [http://joshrachner.com/inquiries]
+
+
+Processing InquiriesController#create (for 192.168.1.1 at 2009-12-15 01:13:01) [POST]
+  Parameters: {"inquiry"=>{"company"=>"josh", "name"=>"josh", "content"=>"josh", "email"=>"josh@joshrachner.com"}, "commit"=>"Submit"}
+Rendering template within layouts/application
+Rendering inquiries/new
+Completed in 80ms (View: 14, DB: 2) | 200 OK [http://joshrachner.com/inquiries]
+
+
+Processing InquiriesController#index (for 192.168.1.1 at 2009-12-15 01:13:06) [GET]
+Rendering template within layouts/application
+Rendering inquiries/new
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://joshrachner.com/inquiries]
+
+
+Processing InquiriesController#index (for 192.168.1.1 at 2009-12-15 01:13:07) [GET]
+Rendering template within layouts/application
+Rendering inquiries/new
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://joshrachner.com/inquiries]
+
+
+Processing InquiriesController#index (for 192.168.1.1 at 2009-12-15 01:13:15) [GET]
+Rendering template within layouts/application
+Rendering inquiries/new
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://joshrachner.com/inquiries]
+
+
+Processing HomeController#blog (for 192.168.1.1 at 2009-12-15 01:13:16) [GET]
+Rendering template within layouts/application
+Rendering home/blog
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/blog]
+
+
+Processing HomeController#experience (for 192.168.1.1 at 2009-12-15 01:13:17) [GET]
+Rendering template within layouts/application
+Rendering home/experience
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/experience]
+
+
+Processing HomeController#resume (for 192.168.1.1 at 2009-12-15 01:13:17) [GET]
+Rendering template within layouts/application
+Rendering home/resume
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/resume]
+
+
+Processing HomeController#index (for 192.168.1.1 at 2009-12-15 01:13:18) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/]
+
+
+Processing HomeController#index (for 192.168.1.1 at 2009-12-15 01:14:58) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.joshrachner.com/]
+
+
+Processing InquiriesController#index (for 192.168.1.1 at 2009-12-15 01:14:59) [GET]
+Rendering template within layouts/application
+Rendering inquiries/new
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://www.joshrachner.com/inquiries]
+
+
+Processing HomeController#blog (for 192.168.1.1 at 2009-12-15 01:15:01) [GET]
+Rendering template within layouts/application
+Rendering home/blog
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.joshrachner.com/blog]
+
+
+Processing HomeController#resume (for 192.168.1.1 at 2009-12-15 01:15:01) [GET]
+Rendering template within layouts/application
+Rendering home/resume
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://www.joshrachner.com/resume]
+
+
+Processing HomeController#index (for 192.168.1.1 at 2009-12-15 01:15:02) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://www.joshrachner.com/]
+
+
+Processing HomeController#contact (for 192.168.1.1 at 2009-12-15 01:15:04) [GET]
+Redirected to http://www.joshrachner.com/
+Completed in 1ms (DB: 0) | 302 Found [http://www.joshrachner.com/contact]
+
+
+Processing HomeController#index (for 192.168.1.1 at 2009-12-15 01:15:04) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://www.joshrachner.com/]
+
+
+Processing HomeController#resume (for 192.168.1.1 at 2009-12-15 01:15:14) [GET]
+Rendering template within layouts/application
+Rendering home/resume
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://www.joshrachner.com/resume]
+
+
+Processing HomeController#experience (for 192.168.1.1 at 2009-12-15 01:15:21) [GET]
+Rendering template within layouts/application
+Rendering home/experience
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.joshrachner.com/experience]
+
+
+Processing HomeController#blog (for 192.168.1.1 at 2009-12-15 01:15:25) [GET]
+Rendering template within layouts/application
+Rendering home/blog
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://www.joshrachner.com/blog]
+
+
+Processing InquiriesController#index (for 192.168.1.1 at 2009-12-15 01:15:26) [GET]
+Rendering template within layouts/application
+Rendering inquiries/new
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://www.joshrachner.com/inquiries]
+
+
+Processing InquiriesController#create (for 192.168.1.1 at 2009-12-15 01:15:29) [POST]
+  Parameters: {"inquiry"=>{"company"=>"", "name"=>"", "content"=>"", "email"=>""}, "commit"=>"Submit"}
+Rendering template within layouts/application
+Rendering inquiries/new
+Completed in 38ms (View: 18, DB: 1) | 200 OK [http://www.joshrachner.com/inquiries]
+
+
+Processing InquiriesController#index (for 192.168.1.1 at 2009-12-15 01:16:32) [GET]
+Rendering template within layouts/application
+Rendering inquiries/new
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://www.joshrachner.com/inquiries]
+
+
+Processing HomeController#index (for 192.168.1.1 at 2009-12-15 01:20:55) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 238ms (View: 238, DB: 0) | 200 OK [http://joshrachner.com/]
+
+
+Processing InquiriesController#index (for 192.168.1.1 at 2009-12-15 01:20:57) [GET]
+Rendering template within layouts/application
+Rendering inquiries/new
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://joshrachner.com/inquiries]
+
+
+Processing HomeController#experience (for 192.168.1.1 at 2009-12-15 01:20:58) [GET]
+Rendering template within layouts/application
+Rendering home/experience
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/experience]
+
+
+Processing HomeController#blog (for 192.168.1.1 at 2009-12-15 01:20:58) [GET]
+Rendering template within layouts/application
+Rendering home/blog
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/blog]
+
+
+Processing HomeController#resume (for 192.168.1.1 at 2009-12-15 01:20:59) [GET]
+Rendering template within layouts/application
+Rendering home/resume
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/resume]
+
+
+Processing HomeController#index (for 192.168.1.1 at 2009-12-15 01:20:59) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/]
+
+
+Processing HomeController#index (for 192.168.1.1 at 2009-12-15 01:21:22) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 39ms (View: 31, DB: 0) | 200 OK [http://joshrachner.com/]
+
+
+Processing HomeController#experience (for 192.168.1.1 at 2009-12-15 01:21:24) [GET]
+Rendering template within layouts/application
+Rendering home/experience
+Completed in 20ms (View: 19, DB: 0) | 200 OK [http://joshrachner.com/experience]
+
+
+Processing HomeController#resume (for 192.168.1.1 at 2009-12-15 01:21:26) [GET]
+Rendering template within layouts/application
+Rendering home/resume
+Completed in 11ms (View: 11, DB: 0) | 200 OK [http://joshrachner.com/resume]
+
+
+Processing HomeController#experience (for 192.168.1.1 at 2009-12-15 01:21:27) [GET]
+Rendering template within layouts/application
+Rendering home/experience
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/experience]
+
+
+Processing HomeController#blog (for 192.168.1.1 at 2009-12-15 01:21:28) [GET]
+Rendering template within layouts/application
+Rendering home/blog
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://joshrachner.com/blog]
+
+
+Processing InquiriesController#index (for 192.168.1.1 at 2009-12-15 01:21:28) [GET]
+Rendering template within layouts/application
+Rendering inquiries/new
+Completed in 54ms (View: 39, DB: 3) | 200 OK [http://joshrachner.com/inquiries]
+
+
+Processing HomeController#index (for 192.168.1.1 at 2009-12-15 01:21:29) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/]
+
+
+Processing HomeController#resume (for 192.168.1.1 at 2009-12-15 01:23:38) [GET]
+Rendering template within layouts/application
+Rendering home/resume
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/resume]
+
+
+Processing HomeController#experience (for 192.168.1.1 at 2009-12-15 01:23:39) [GET]
+Rendering template within layouts/application
+Rendering home/experience
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/experience]
+
+
+Processing HomeController#blog (for 192.168.1.1 at 2009-12-15 01:23:41) [GET]
+Rendering template within layouts/application
+Rendering home/blog
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/blog]
+
+
+Processing InquiriesController#index (for 192.168.1.1 at 2009-12-15 01:23:43) [GET]
+Rendering template within layouts/application
+Rendering inquiries/new
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://joshrachner.com/inquiries]
+
+
+Processing InquiriesController#create (for 192.168.1.1 at 2009-12-15 01:23:44) [POST]
+  Parameters: {"inquiry"=>{"company"=>"", "name"=>"", "content"=>"", "email"=>""}, "commit"=>"Submit"}
+Rendering template within layouts/application
+Rendering inquiries/new
+Completed in 39ms (View: 18, DB: 1) | 200 OK [http://joshrachner.com/inquiries]
+
+
+Processing HomeController#blog (for 192.168.1.1 at 2009-12-15 01:23:46) [GET]
+Rendering template within layouts/application
+Rendering home/blog
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/blog]
+
+
+Processing HomeController#experience (for 192.168.1.1 at 2009-12-15 01:23:47) [GET]
+Rendering template within layouts/application
+Rendering home/experience
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/experience]
+
+
+Processing InquiriesController#index (for 192.168.1.1 at 2009-12-15 01:23:47) [GET]
+Rendering template within layouts/application
+Rendering inquiries/new
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://joshrachner.com/inquiries]
+
+
+Processing InquiriesController#create (for 192.168.1.1 at 2009-12-15 01:23:49) [POST]
+  Parameters: {"inquiry"=>{"company"=>"", "name"=>"", "content"=>"", "email"=>""}, "commit"=>"Submit"}
+Rendering template within layouts/application
+Rendering inquiries/new
+Completed in 38ms (View: 18, DB: 1) | 200 OK [http://joshrachner.com/inquiries]
+
+
+Processing InquiriesController#create (for 192.168.1.1 at 2009-12-15 01:23:54) [POST]
+  Parameters: {"inquiry"=>{"company"=>"", "name"=>"dfg", "content"=>"", "email"=>""}, "commit"=>"Submit"}
+Rendering template within layouts/application
+Rendering inquiries/new
+Completed in 34ms (View: 17, DB: 1) | 200 OK [http://joshrachner.com/inquiries]
+
+
+Processing InquiriesController#create (for 192.168.1.1 at 2009-12-15 01:23:56) [POST]
+  Parameters: {"inquiry"=>{"company"=>"dsf", "name"=>"dfg", "content"=>"", "email"=>""}, "commit"=>"Submit"}
+Rendering template within layouts/application
+Rendering inquiries/new
+Completed in 30ms (View: 16, DB: 1) | 200 OK [http://joshrachner.com/inquiries]
+
+
+Processing HomeController#index (for 192.168.1.1 at 2009-12-15 01:24:44) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/]
+
+
+Processing HomeController#resume (for 192.168.1.1 at 2009-12-15 01:24:45) [GET]
+Rendering template within layouts/application
+Rendering home/resume
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/resume]
+
+
+Processing HomeController#experience (for 192.168.1.1 at 2009-12-15 01:24:45) [GET]
+Rendering template within layouts/application
+Rendering home/experience
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/experience]
+
+
+Processing HomeController#experience (for 192.168.1.1 at 2009-12-15 01:24:46) [GET]
+Rendering template within layouts/application
+Rendering home/experience
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/experience]
+
+
+Processing HomeController#blog (for 192.168.1.1 at 2009-12-15 01:24:47) [GET]
+Rendering template within layouts/application
+Rendering home/blog
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/blog]
+
+
+Processing InquiriesController#index (for 192.168.1.1 at 2009-12-15 01:24:47) [GET]
+Rendering template within layouts/application
+Rendering inquiries/new
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://joshrachner.com/inquiries]
+
+
+Processing InquiriesController#index (for 192.168.1.1 at 2009-12-15 01:25:12) [GET]
+Rendering template within layouts/application
+Rendering inquiries/new
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://joshrachner.com/inquiries]
+
+
+Processing HomeController#experience (for 192.168.1.1 at 2009-12-15 01:25:13) [GET]
+Rendering template within layouts/application
+Rendering home/experience
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/experience]
+
+
+Processing HomeController#blog (for 192.168.1.1 at 2009-12-15 01:25:13) [GET]
+Rendering template within layouts/application
+Rendering home/blog
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/blog]
+
+
+Processing HomeController#contact (for 192.168.1.1 at 2009-12-15 01:25:14) [GET]
+Redirected to http://joshrachner.com/
+Completed in 2ms (DB: 0) | 302 Found [http://joshrachner.com/contact]
+
+
+Processing HomeController#index (for 192.168.1.1 at 2009-12-15 01:25:14) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/]
+
+
+Processing HomeController#contact (for 192.168.1.1 at 2009-12-15 01:25:16) [GET]
+Redirected to http://joshrachner.com/
+Completed in 1ms (DB: 0) | 302 Found [http://joshrachner.com/contact]
+
+
+Processing HomeController#index (for 192.168.1.1 at 2009-12-15 01:25:16) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/]
+
+
+Processing HomeController#contact (for 192.168.1.1 at 2009-12-15 01:25:17) [GET]
+Redirected to http://joshrachner.com/
+Completed in 1ms (DB: 0) | 302 Found [http://joshrachner.com/contact]
+
+
+Processing HomeController#index (for 192.168.1.1 at 2009-12-15 01:25:17) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/]
+
+
+Processing HomeController#index (for 192.168.1.1 at 2009-12-15 01:25:18) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/index]
+
+
+Processing HomeController#resume (for 192.168.1.1 at 2009-12-15 01:25:18) [GET]
+Rendering template within layouts/application
+Rendering home/resume
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/resume]
+
+
+Processing HomeController#experience (for 192.168.1.1 at 2009-12-15 01:25:19) [GET]
+Rendering template within layouts/application
+Rendering home/experience
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/experience]
+
+
+Processing HomeController#blog (for 192.168.1.1 at 2009-12-15 01:25:20) [GET]
+Rendering template within layouts/application
+Rendering home/blog
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/blog]
+
+
+Processing HomeController#contact (for 192.168.1.1 at 2009-12-15 01:25:21) [GET]
+Redirected to http://joshrachner.com/
+Completed in 1ms (DB: 0) | 302 Found [http://joshrachner.com/contact]
+
+
+Processing HomeController#index (for 192.168.1.1 at 2009-12-15 01:25:21) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/]
+
+
+Processing HomeController#inquiry (for 192.168.1.1 at 2009-12-15 01:26:06) [GET]
+Redirected to http://joshrachner.com/
+Completed in 2ms (DB: 0) | 302 Found [http://joshrachner.com/inquiry]
+
+
+Processing HomeController#index (for 192.168.1.1 at 2009-12-15 01:26:06) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://joshrachner.com/]
+
+
+Processing InquiriesController#index (for 192.168.1.1 at 2009-12-15 01:26:09) [GET]
+Rendering template within layouts/application
+Rendering inquiries/new
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://joshrachner.com/inquiries]
+
+
+Processing InquiriesController#index (for 192.168.1.1 at 2009-12-15 01:26:28) [GET]
+Rendering template within layouts/application
+Rendering inquiries/new
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://joshrachner.com/inquiries]
+
+
+Processing InquiriesController#index (for 192.168.1.1 at 2009-12-15 01:26:31) [GET]
+Rendering template within layouts/application
+Rendering inquiries/new
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://joshrachner.com/inquiries]
