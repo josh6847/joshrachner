@@ -210,6 +210,11 @@ div.row
   height: 29px;
 }
 
+div.row2
+{ clear: both;
+  width: 448px;
+  height: 70px;
+}
 div.row span.formlabel 
 { float: left;
   width: 150px;
@@ -232,6 +237,12 @@ input, textarea
   font-family: verdana, arial, sans-serif;
   font-size: 100%;
   border: 1px solid;
+}
+
+div.spacer
+{ clear: both;
+  width: 80px;
+  height: 50px;
 }
 
 .submit
