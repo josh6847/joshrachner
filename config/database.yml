@@ -8,9 +8,15 @@ development:
   database: joshrachneronrails
   host: localhost
   username: root
-  password: Auhsoj7!
-  #scoket: /var/run/mysqld/mysqld.sock
-  socket: /opt/lampp/var/mysql/mysql.sock
+  password: root
+  socket: /Applications/MAMP/tmp/mysql/mysql.sock
+  
+  # remote connection to t2l production DB
+  #database: turn2live
+  #host: 209.20.92.216
+  #username: root
+  #password: PASSWORD
+  
   timeout: 5000
 
 # Warning: The database defined as 'test' will be erased and
@@ -29,9 +35,15 @@ production:
     database: joshrachneronrails
     host: localhost
     username: root
-    password: Auhsoj7!
-    #scoket: /var/run/mysqld/mysqld.sock
-    socket: /opt/lampp/var/mysql/mysql.sock
+    password: root
+    socket: /Applications/MAMP/tmp/mysql/mysql.sock
+
+    # remote connection to t2l production DB
+    #database: turn2live
+    #host: 209.20.92.216
+    #username: root
+    #password: PASSWORD
+
     timeout: 5000
   
     

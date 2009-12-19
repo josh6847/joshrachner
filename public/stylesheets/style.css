@@ -11,8 +11,14 @@ body
 p
 { margin: 0px;
   padding: 0px 0px 24px 0px;
-  line-height: 20px;
+  /*line-height: 20px;*/
 }
+
+.pTitle
+{ margin: 0px;
+  padding: 0;
+}
+
 
 h1
 { margin: 0px;
@@ -266,4 +272,11 @@ li.error {
 	font-weight:bold;
 	color:red;
 	margin:2px 0;
+}
+
+
+/* 	CONTACT STYLES */
+
+.new_inquiry {
+	margin:15px 0;
 }
