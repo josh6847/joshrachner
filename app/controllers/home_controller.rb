@@ -13,7 +13,6 @@ class HomeController < ApplicationController
 
   def blog
     @blog = "selected"
-    redirect_to "http://blog.joshrachner.com"
   end
   
   def method_missing(*args)
