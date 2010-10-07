@@ -46,6 +46,7 @@ blockquote
 #menu, #addlinks, .sidebaritem
 { background: #FFFFFF url(/images/box_2.png) repeat-x;
   color: #3E4244;
+  margin-bottom:30px;
 }
 
 #menu li a, #addlinks li a

@@ -3,8 +3,8 @@ class HomeController < ApplicationController
     @index = "selected"
   end
 
-  def resume
-    @resume = "selected"
+  def technology
+    @technology = "selected"
   end
 
   def experience

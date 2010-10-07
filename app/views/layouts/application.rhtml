@@ -3,15 +3,15 @@
 <head>
  	<title>Josh Rachner :: Portfolio</title>
  	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
- 	<meta name="keywords" content="Josh Rachner Portfolio" />
- 	<meta name="description" content="Josh Rachner's portfolio resume blog contact" />
+ 	<meta name="keywords" content="Josh Rachner Portfolio Programming Web Development Information Technology" />
+ 	<meta name="description" content="Josh Rachner is a technology consultant based out of Austin, TX, poised to help people and companies build more effective technology" />
 	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/reset/reset-min.css"> 
 	<%= stylesheet_link_tag 'style', 'colour' %>
 </head>
 <body>
 	<div id="main">
     <div id="links">
-      		<a href="/index">home</a> | <a href="/resume">resume</a> | <a href="/experience">job experience</a> | <a href="/blog">my blog</a> | <a href="/inquiries">contact</a>
+      		<a href="/">home</a> | <a href="/experience">job experience</a> | <a href="/blog">my blog</a> | <a href="/inquiries">contact</a>
     </div>
     	<div id="logo"><h1>Josh Rachner :: Portfolio</h1></div>
     		<div id="content">
@@ -20,7 +20,7 @@
          				<h1>Navigate</h1>
          				<ul>
            				<li><%= link_to 'home', {:controller => 'home', :action => 'index'}, :id => @index %></li>
-									<li><%= link_to 'resume', {:controller => 'home', :action => 'resume'}, :id => @resume %></li>
+									<li><%= link_to 'technology', {:controller => 'home', :action => 'technology'}, :id => @technology %></li>
 									<li><%= link_to 'job experience', {:controller => 'home', :action => 'experience'}, :id => @experience %></li>
 									<li><%= link_to 'my blog', "http://blog.joshrachner.com", :target => '_blank', :id => @blog %></li>
 									<li><%= link_to 'contact', {:controller => 'inquiries'}, :id => @contact %></li>
@@ -29,18 +29,18 @@
        			<div id="addlinks">
          				<h1>Links</h1>
          				<ul>
-           				<li><a href="http://www.linkedin.com/in/joshrachner" target="_blank"> -> LinkedIn Profile</a></li>
-									<li><a href="http://www.turn2live.com" target="_blank"> -> Turn2Live - Find Live Music</a></li>
-									<li><a href="http://www.allbouttexas.com" target="_blank"> -> All 'Bout Texas Tailgate</a></li>
-									<li><a href="http://www.barbrachner.com" target="_blank"> -> Barb Rachner Ministries</a></li>
-									<li><a href="http://www.kickdiabetes.org" target="_blank"> -> Kick Diabetes Soccer Camp</a></li>
+           				<li><a href="http://linkedin.com/in/joshrachner" target="_blank"> -> LinkedIn Profile</a></li>
+									<li><a href="http://moodfish.com" target="_blank"> -> Moodish - Entertainment</a></li>
+									<li><a href="http://allbouttexas.com" target="_blank"> -> All Bout Texas Tailgate</a></li>
+									<li><a href="http://barbrachner.com" target="_blank"> -> Barb Rachner Ministries</a></li>
+									<li><a href="http://artbyrock.com" target="_blank"> -> Letter Art by Britt</a></li>
+									<li><a href="http://kickdiabetes.org" target="_blank"> -> Kick Diabetes Soccer Camp</a></li>
          				</ul>
        			</div>
        			<div class="sidebaritem">
          				<h1>Contact</h1>
          				<i>Josh Rachner</i><br />
 									josh [at] joshrachner.com<br />
-									jrachner [at] sensecorp.com<br />
 									281-543-0189<br />
 									Austin, TX
        			</div>
@@ -50,7 +50,7 @@
      			</div>
     		</div>
    			<div id="footer">
-      			copyright &copy; 2009 Josh Rachner | <a href="mailto:support@joshrachner.com">support@joshrachner.com</a>
+      			copyright &copy; 2009-2010 Josh Rachner | <a href="mailto:support@joshrachner.com">support@joshrachner.com</a>
     		</div>
   		</div>
 </body>

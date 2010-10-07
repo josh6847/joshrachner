@@ -7,20 +7,20 @@
 <% form_for @inquiry, :method => 'create' do |f| %>
 	<div style="height:190px;margin:8px 0;">
 		<div class="row">
-			<span class="formlabel" >your name</span>
-			<span class="forminput"><%= f.text_field 'name', :value => @inquiry.name %></span>
+			<label class="formlabel" for="name">your name</label>
+			<span class="forminput"><%= f.text_field 'name', :value => @inquiry.name, :id => 'name' %></span>
 		</div>
 		<div class="row">
-			<span class="formlabel">your company</span>
-			<span class="forminput"><%= f.text_field 'company', :value => @inquiry.company %></span>
+			<label class="formlabel" for="company">your company</label>
+			<span class="forminput"><%= f.text_field 'company', :value => @inquiry.company, :id => 'company' %></span>
 		</div>
 		<div class="row">
-			<span class="formlabel">your email</span>
-			<span class="forminput"><%= f.text_field 'email', :value => @inquiry.email %></span>
+			<label class="formlabel" for="email">your email</label>
+			<span class="forminput"><%= f.text_field 'email', :value => @inquiry.email, :id => 'email' %></span>
 		</div>
 		<div class="row">
-			<span class="formlabel">your inquiry</span>
-			<span class="forminput"><%= f.text_area 'content', :cols => "80", :rows => "5", :value => @inquiry.content %></span>
+			<label class="formlabel" for="message">your inquiry</label>
+			<span class="forminput"><%= f.text_area 'content', :cols => "80", :rows => "5", :value => @inquiry.content, :id => 'message' %></span>
 		</div>
 	</div>
 	<div class="row">
