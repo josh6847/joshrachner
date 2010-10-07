@@ -10,6 +10,10 @@ class HomeController < ApplicationController
   def experience
     @experience = "selected"
   end
+  
+  def experience2
+    @experience = "selected"
+  end
 
   def blog
     @blog = "selected"
