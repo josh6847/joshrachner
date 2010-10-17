@@ -175,7 +175,7 @@ ul li
 
 /* column 2 - page content */
 #column2
-{ text-align: justify;
+{ text-align: left;
   padding: 0px 22px 15px 0px;
   width: 482px;
   float: right;
