@@ -1,7 +1,7 @@
 <% content_tag(:ul, :class => 'error') do  %>
 	<% @inquiry.errors.full_messages.each do |error| %>
 		<li class="error"><%= error %></li>
-	<% end  %>
+	<% end %>
 <% end unless @inquiry.errors.blank? %>
 <%= "<div style=\"color: blue;\"><h4><i>#{flash.now[:notice]}</i></h4></div>" unless flash.now[:notice].blank? %>
 <% form_for @inquiry, :method => 'create' do |f| %>
