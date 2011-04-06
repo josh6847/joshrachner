@@ -6,7 +6,51 @@
  	<meta name="keywords" content="Josh Rachner Portfolio Programming Web Development Information Technology" />
  	<meta name="description" content="Josh Rachner is a technology consultant based out of Austin, TX, poised to help people and companies build more effective technology" />
 	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/reset/reset-min.css"> 
-	<%= stylesheet_link_tag 'style', 'colour' %>
+	<%= stylesheet_link_tag 'style', 'colour', 'pagination' %>
+	<%= javascript_include_tag 'jquery-1.4.2.min', 'jquery.pagination' %>
+  <script type="text/javascript"> 
+  
+      // This is a very simple demo that shows how a range of elements can
+      // be paginated.
+      // The elements that will be displayed are in a hidden DIV and are
+      // cloned for display. The elements are static, there are no Ajax 
+      // calls involved.
+  
+      /**
+       * Callback function that displays the content.
+       *
+       * Gets called every time the user clicks on a pagination link.
+       *
+       * @param {int} page_index New Page index
+       * @param {jQuery} jq the container with the pagination links as a jQuery object
+       */
+      function pageselectCallback(page_index, jq){
+          var new_content = jQuery('#hiddenresult div.result:eq('+page_index+')').clone();
+          $('#Searchresult').empty().append(new_content);
+          return false;
+      }
+     
+      /** 
+       * Initialisation function for pagination
+       */
+      function initPagination() {
+          // count entries inside the hidden content
+          var num_entries = jQuery('#hiddenresult div.result').length;
+          // Create content inside pagination element
+          $("#Pagination").pagination(num_entries, {
+              callback: pageselectCallback,
+              items_per_page:2 // Show only one item per page
+          });
+       }
+      
+      // When document is ready, initialize pagination
+      $(document).ready(function(){      
+          initPagination();
+      });
+      
+      
+      
+  </script>
 </head>
 <body>
 	<div id="main">
@@ -37,7 +81,7 @@
 									<li><a href="http://kickdiabetes.org" target="_blank"> -> Kick Diabetes Soccer Camp</a></li>
          				</ul>
        			</div>
-       			<div class="sidebaritem">
+       			<div class="sidebaritem" style="height:500px">
          				<h1>Contact</h1>
          				<i>Josh Rachner</i><br />
 									josh [at] joshrachner.com<br />

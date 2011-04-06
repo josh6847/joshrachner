@@ -9,10 +9,7 @@ class HomeController < ApplicationController
 
   def experience
     @experience = "selected"
-  end
-  
-  def experience2
-    @experience = "selected"
+    render :layout => 'experience'
   end
 
   def blog
