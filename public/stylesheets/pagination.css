@@ -4,28 +4,29 @@
         
 .pagination a {
     text-decoration: none;
-	border: solid 1px #009FCB;
-	color: #15B;
+	border: solid 1px black;
+	color: black !important;
 }
 
 .pagination a, .pagination span {
     display: block;
     float: left;
-    padding: 0.3em 0.5em;
+    padding: 0.3em 0.5em !important;
     margin-right: 5px;
 	margin-bottom: 5px;
 	min-width:1em;
 	text-align:center;
+	color:black;
 }
 
 .pagination .current {
-    background: #009FCB;
-    color: #fff;
-	border: solid 1px #009FCB;
+    background: gray;
+    color: white;
+	border: solid 1px black;
 }
 
 .pagination .current.prev, .pagination .current.next{
 	color:gray;
-	border-color:#009FCB;
+	border-color:black;
 	background:#fff;
 }
