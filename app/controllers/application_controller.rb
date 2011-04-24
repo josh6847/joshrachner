@@ -4,9 +4,19 @@
 class ApplicationController < ActionController::Base
   layout 'application'
   helper :all # include all helpers, all the time
+  before_filter :check_domain
   
-  #protect_from_forgery # See ActionController::RequestForgeryProtection for details
-
-  # Scrub sensitive parameters from your log
-  # filter_parameter_logging :password
+  def check_domain
+    if host.match(/dev|test/)
+      authenticate
+    end
+  end
+  
+  # basic authentication
+  def authenticate
+    authenticate_or_request_with_http_basic('this is a secret area') do |username, password|
+      htpasswd = {'abt' => 'texas'}
+      htpasswd[username] == password
+    end
+  end
 end
