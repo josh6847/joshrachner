@@ -3,6 +3,7 @@ class InquiriesController < ApplicationController
   
   def set_mode
     @contact = "selected"
+    @page_title = "Contact"
   end
   
   def index

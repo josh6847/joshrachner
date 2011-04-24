@@ -1,19 +1,11 @@
 <h1>Welcome!</h1>
-<p>
-	Thanks for visiting. Included in the portfolio is technology, job experience, the blog, and contact info. <span style="font-size: 11px;"><a href="/technology">Read More >></a></span>
-</p>
+	<%= write_content(Content.get_welcome) %>
 <h2>Currently Employed</h2>
-<ul style="margin:15px 20px">
-	<li style="padding-bottom:5px">Company: Sense Corp</li>
-	<li style="padding-bottom:5px">Position: Consultant</li>
-	<li style="padding-bottom:5px">Focus: Business Technology Consulting <i>for various industries</i></li><!--<span style="font-size: 11px;"><a href="/experience">Read More >></a></span>-->
-</ul>
+	<%= write_content(Content.get_employment) %>
 <h2>Latest Blog Posts</h2>
 <ul style="margin:15px 20px">
 <% 0.upto(6) do |i| %>
   <li style="padding-bottom:5px"><a style="color:#3E4244" target="_blank" href="<%= @rss.items[i].link %>"><%= @rss.items[i].title %></a></li>
 <% end %>
 </ul>
-<p>
-	"I truly believe that success takes a lifetime. My desire is to start a nationwide, young-student workshop to teach kids between the ages of 13-21 about starting careers. It will be designed to give students the opportunity to do real world projects with other peers, while being supervised by experts in the fields of engineering, programming, mathematics, business, and science." <b>-Josh</b>
-</p>
+<%= write_content(Content.get_mission) %>

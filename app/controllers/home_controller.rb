@@ -3,7 +3,6 @@ class HomeController < ApplicationController
   require 'rss/2.0'
   require 'open-uri'
   
-  
   def index
     @index = "selected"
     source = "http://blog.joshrachner.com/feed/" # url or local file
@@ -22,14 +21,18 @@ class HomeController < ApplicationController
     #print "link of first item: ", rss.items[0].link, "\n"
     #print "description of first item: ", rss.items[0].description, "\n"
     #print "date of first item: ", rss.items[0].date, "\n"
+    @page_title = "Home"
   end
 
   def technology
     @technology = "selected"
+    @page_title = "Technology"
   end
 
   def experience
     @experience = "selected"
+    @experiences = Experience.all(:order => 'position DESC')
+    @page_title = "Experience"
     render :layout => 'experience'
   end
 
