@@ -12,6 +12,10 @@ class ApplicationController < ActionController::Base
     end
   end
   
+  def host
+    request.host_with_port
+  end
+  
   # basic authentication
   def authenticate
     authenticate_or_request_with_http_basic('this is a secret area') do |username, password|
