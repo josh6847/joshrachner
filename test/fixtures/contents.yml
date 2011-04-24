@@ -1,37 +1,19 @@
 1:
   id: 1
   location: welcome
-  html: &lt;p&gt;
-Thanks for visiting. Included in the portfolio is technology, job experience, the blog, and contact info. &lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;a href=&quot;/technology&quot;&gt;Read More &gt;&gt;&lt;/a&gt;&lt;/span&gt;
-&lt;/p&gt;
+  html: '<p>Thanks for visiting. Included in the portfolio is technology, job experience, the blog, and contact info. <span style="font-size: 11px;"><a href="/technology">Read More >></a></span></p>'
+  
 2:
   id: 2
   location: employment
-  html: &lt;ul style=&quot;margin:15px 20px&quot;&gt;
-	&lt;li style=&quot;padding-bottom:5px&quot;&gt;Company: Sense Corp&lt;/li&gt;
-	&lt;li style=&quot;padding-bottom:5px&quot;&gt;Position: Consultant&lt;/li&gt;
-	&lt;li style=&quot;padding-bottom:5px&quot;&gt;Focus: Business Technology Consulting &lt;i&gt;for various industries&lt;/i&gt;&lt;/li&gt;&lt;!--&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;a href=&quot;/experience&quot;&gt;Read More &gt;&gt;&lt;/a&gt;&lt;/span&gt;--&gt;
-&lt;/ul&gt;
+  html: '<ul style="margin:15px 20px"><li style="padding-bottom:5px">Company: Sense Corp</li><li style="padding-bottom:5px">Position: Consultant</li><li style="padding-bottom:5px">Focus: Business Technology Consulting <i>for various industries</i></li><!--<span style="font-size: 11px;"><a href="/experience">Read More >></a></span>--></ul>'
+
 3:
   id: 3
   location: mission
-  html: &lt;p&gt;
-	&quot;I truly believe that success takes a lifetime. My desire is to start a nationwide, young-student workshop to teach kids between the ages of 13-21 about starting careers. It will be designed to give students the opportunity to do real world projects with other peers, while being supervised by experts in the fields of engineering, programming, mathematics, business, and science.&quot; &lt;b&gt;-Josh&lt;/b&gt;
-&lt;/p&gt;
+  html: '<p>"I truly believe that success takes a lifetime. My desire is to start a nationwide, young-student workshop to teach kids between the ages of 13-21 about starting careers. It will be designed to give students the opportunity to do real world projects with other peers, while being supervised by experts in the fields of engineering, programming, mathematics, business, and science." <b> -Josh</b></p'
+
 4:
   id: 4
-  location: technology
-  html: &lt;p style=&quot;padding-bottom:20px&quot;&gt;&lt;i&gt;These are the tools:&lt;/i&gt;&lt;/p&gt;
-&lt;b&gt;Languages:&lt;/b&gt; Java, C/C++, C#, VB.NET, Ruby, PHP, JavaScript&lt;br/&gt;&lt;br/&gt;
-&lt;b&gt;Frameworks:&lt;/b&gt; ASP.NET, Ruby on Rails, Model-View-Controller&lt;br/&gt;&lt;br/&gt;
-&lt;b&gt;Markup/Styling:&lt;/b&gt; XHTML, XML, KML, CAML, XSLT, CSS, AJAX, JQuery&lt;br/&gt;&lt;br/&gt;
-&lt;b&gt;Procedural:&lt;/b&gt; PL/SQL, T-SQL&lt;br/&gt;&lt;br/&gt;
-&lt;b&gt;Scripting:&lt;/b&gt; Bash, Batch, PowerShell&lt;br/&gt;&lt;br/&gt;
-&lt;b&gt;Operating Systems:&lt;/b&gt; Unix, Linux, Windows, Mac OSX&lt;br/&gt;&lt;br/&gt;
-&lt;b&gt;Databases:&lt;/b&gt; Oracle, SQL Server, MySQL, Access, MongoDB&lt;br/&gt;&lt;br/&gt;
-&lt;b&gt;Warehousing:&lt;/b&gt; Oracle Warehouse Builder, SQL Server Integration Services&lt;br/&gt;&lt;br/&gt;
-&lt;b&gt;Business Intelligence:&lt;/b&gt; Oracle BI, SQL Server Reporting Services&lt;br/&gt;&lt;br/&gt;
-&lt;b&gt;Web Portals:&lt;/b&gt; Microsoft SharePoint&lt;br/&gt;&lt;br/&gt;
-&lt;b&gt;Dev Tools:&lt;/b&gt; Visual Studio, TextMate, Notepad++, VI&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
-
-&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;a href=&quot;/experience&quot;&gt;Read More &gt;&gt;&lt;/a&gt;&lt;/span&gt;
+  location: technologies
+  html: '<p style="padding-bottom:20px"><i>These are the tools:</i></p><b>Languages:</b> Java, C/C++, C#, VB.NET, Ruby, PHP, JavaScript<br/><br/><b>Frameworks:</b> ASP.NET, Ruby on Rails, Model-View-Controller<br/><br/><b>Markup/Styling:</b> XHTML, XML, KML, CAML, XSLT, CSS, AJAX, JQuery<br/><br/><b>Procedural:</b> PL/SQL, T-SQL<br/><br/><b>Scripting:</b> Bash, Batch, PowerShell<br/><br/><b>Operating Systems:</b> Unix, Linux, Windows, Mac OSX<br/><br/><b>Databases:</b> Oracle, SQL Server, MySQL, Access, MongoDB<br/><br/><b>Warehousing:</b> Oracle Warehouse Builder, SQL Server Integration Services<br/><br/><b>Business Intelligence:</b> Oracle BI, SQL Server Reporting Services<br/><br/><b>Web Portals:</b> Microsoft SharePoint<br/><br/><b>Dev Tools:</b> Visual Studio, TextMate, Notepad++, VI<br/><br/><br/><span style="font-size: 11px;"><a href="/experience">Read More >></a></span>'
