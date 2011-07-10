@@ -55,7 +55,7 @@
 <body>
 	<div id="main">
     <div id="links">
-      		<a href="/">home</a> | <a href="/technology">technology</a> | <a href="/experience">job experience</a> | <a href="http://blog.joshrachner.com" target="_blank">the blog</a> | <a href="/inquiries">contact</a>
+      		<a href="/">home</a> | <a href="/technology">technology</a> | <a href="/experience">job experience</a> | <a href="/blog" target="_blank">the blog</a> | <a href="/inquiries">contact</a>
     </div>
     	<div id="logo"><h1>Josh Rachner :: Portfolio</h1></div>
     		<div id="content">
@@ -66,7 +66,7 @@
            				<li><%= link_to 'home', {:controller => 'home', :action => 'index'}, :id => @index %></li>
 									<li><%= link_to 'technology', {:controller => 'home', :action => 'technology'}, :id => @technology %></li>
 									<li><%= link_to 'job experience', {:controller => 'home', :action => 'experience'}, :id => @experience %></li>
-									<li><%= link_to 'the blog', "http://blog.joshrachner.com", :target => '_blank', :id => @blog %></li>
+									<li><%= link_to 'the blog', {:controller => 'blog'}, :id => @blog %></li>
 									<li><%= link_to 'contact', {:controller => 'inquiries'}, :id => @contact %></li>
          				</ul>
        			</div>

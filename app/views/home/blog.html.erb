@@ -1,2 +1,16 @@
-<h1>Blog</h1>
-<span style="color:grey">*This portion of the site is currently under construction*</span>
+<h1>blog.joshrachner.com</h1>
+<% @rss.items[0..3].each do |rss| %>
+	<div class="post-wp"> 
+		<h2 class="post-title"><a href="<%= rss.link %>" title="<%= rss.title %>" target="_blank"><%= rss.title %></a></h2> 
+		<p class="post-date">
+			<i><%= rss.date.strftime("%A %d, %Y") %></i> - 
+			<% rss.categories.each do |cat| %>
+				<%= cat.content %>
+			<% end %>
+			<br/>
+			<%= truncate(rss.description, :length => 200) %>
+		</p>
+	</div>
+<% end %>
+
+<span class="next" style="float:left;font-weight:bold;font-size:14px"><a target="_blank" href="http://blog.joshrachner.com/">Go To Main Blog</a></span>
