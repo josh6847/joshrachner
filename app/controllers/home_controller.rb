@@ -6,10 +6,7 @@ class HomeController < ApplicationController
   
   def index
     @index = "selected"
-    source = "http://blog.joshrachner.com/feed/" # url or local file
-    content = "" # raw content of rss feed will be loaded here
-    open(source) do |s| content = s.read end
-    @rss = RSS::Parser.parse(content, false)
+    call_rss
     @page_title = "Home"
   end
 
@@ -27,6 +24,11 @@ class HomeController < ApplicationController
 
   def blog
     @blog = "selected"
+    call_rss
+    @page_title = "Blog"
+  end
+  
+  def call_rss
     source = "http://blog.joshrachner.com/feed/" # url or local file
     content = "" # raw content of rss feed will be loaded here
     open(source) do |s| content = s.read end
